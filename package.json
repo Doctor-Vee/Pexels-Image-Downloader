@@ -4,7 +4,8 @@
   "description": "A Progressive Web App for searching and downloading pictures from Pexels.com using their public API.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
