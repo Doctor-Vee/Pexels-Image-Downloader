@@ -21,11 +21,9 @@ app.use(express.urlencoded({
 
 app.get('/', (req, res) => {
   res.render('search');
-  console.log('rendered');
 });
 
 app.get('/results', (req, res) => {
-  console.log(req.query.search);
   pexelsClient.search(req.query.search, 20, 1)
     .then((result) => {
       const { photos, next_page } = result;

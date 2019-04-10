@@ -1,5 +1,4 @@
 let nextButton = document.getElementById('next');
-console.log('Now in Main JS');
 nextButton.addEventListener('click', ()=>{getAPI()});
 
 const displayResults = (photos, next_page) => {
@@ -19,9 +18,7 @@ const displayResults = (photos, next_page) => {
 
 const getAPI = () => {
   const token = '563492ad6f917000010000016f06e2565d114060b4760bee31fd4d4e';
-  console.log('Now in Get API');
   let api = nextButton.getAttribute('data');
-  console.log(api);
   fetch(api, {
     headers: {
       Authorization: token
@@ -30,16 +27,6 @@ const getAPI = () => {
   .then((res) => res.json())
   .then((data) => {
     const { photos, next_page } = data;
-    console.log(next_page);
-    console.log(photos);
     displayResults(photos, next_page);
   })
-
 };
-
-// const startApp = () => {
-//   console.log('Now in Start App');
-//   getAPI();
-// };
-
-// startApp();
