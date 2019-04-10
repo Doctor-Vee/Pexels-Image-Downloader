@@ -32,6 +32,7 @@ button {
     font-weight: 700;
     text-align: center;
     padding: 8px 15px;
+    margin-bottom: 10px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
 }
 
@@ -117,4 +118,12 @@ footer {
   color: #ffffff;
   background-color: #05A081;
   text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+
+  .formBox {
+    width: 90%;
+  }
 }

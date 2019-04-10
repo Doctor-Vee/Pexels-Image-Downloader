@@ -1,0 +1,29 @@
+{
+  "name": "pexels-image-downloader",
+  "version": "1.0.0",
+  "description": "A Progressive Web App for searching and downloading pictures from Pexels.com using their public API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Chinewubeze/Pexels-Image-Downloader.git"
+  },
+  "keywords": [
+    "pexels",
+    "pictures",
+    "photos",
+    "pwa"
+  ],
+  "author": "Victor CHINEWUBEZE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victor-Chinewubeze/Pexels-Image-Downloader/issues"
+  },
+  "homepage": "https://github.com/Victor-Chinewubeze/Pexels-Image-Downloader#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
