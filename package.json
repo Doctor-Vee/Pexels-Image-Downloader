@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/Victor-Chinewubeze/Pexels-Image-Downloader#readme",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pexels-api-wrapper": "^1.1.1"
   }
 }
